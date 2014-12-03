@@ -76,10 +76,6 @@
 			padding-left: 2em;
 			padding-right: 2em;
 		}
-		section{
-			padding-top:6em;
-			padding-bottom:6em;
-		}
 		h1 {
 			line-height: 2.0;
 			text-align: center;
@@ -115,10 +111,14 @@ aside{
 	padding-bottom:1em;
 }
 body.js section{
-	display:none;
+	display: none;
+}
+section{
+	overflow:hidden;
 }
 body.js section.active{
-	display:block;
+	display: block;
+
 }
 ul{
 	display:flex;
@@ -142,6 +142,10 @@ nav{
 	display:inline-block;
 	width:50%;
 	padding: 3em 3em 1em;
+	font-family:"ltc-bodoni-175", serif;
+}
+.post-nav:not([href]){
+	opacity:0;
 }
 .next-post{
 	text-align:right;

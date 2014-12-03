@@ -12,14 +12,14 @@ jQuery(document).ready(function(){
 				.attr('href', "#" + prevID);
 		} else {
 			navPrev
-				.attr('href', '#');
+				.removeAttr('href');
 		}
 		if (nextID) {
 			navNext
 				.attr('href', "#" + nextID);
 		} else {
 			navNext
-				.attr('href', '#');
+				.removeAttr('href');
 		}
 	}
 	function navigate(){
@@ -30,6 +30,7 @@ jQuery(document).ready(function(){
 		} else {
 			$('#toc').addClass('active');
 		}
+		$('html, body').scrollTop(0);
 	}
 
 	// key navigation
