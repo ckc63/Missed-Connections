@@ -11,10 +11,6 @@
 			text-indent: 36pt;
 			direction: ltr
 		}
-		.c7 {
-			line-height: 2.0;
-			direction: ltr
-		}
 		.c9 {
 			padding-top: 0pt;
 			text-align: left
@@ -56,12 +52,6 @@
 			font-family: "Arial"
 		}
 		p {
-			color: #000000;
-			font-size: 11pt;
-			margin: 0;
-			font-family: "Arial"
-		}
-		p {
 			font-family: "adobe-caslon-pro", serif;
 			font-weight: 400;
 			font-size: 1.2em;
@@ -80,9 +70,17 @@
 			line-height: 2.0;
 			text-align: center;
 			direction: ltr;
-			font-family: "adobe-caslon-pro", serif;
+			font-family:"ltc-bodoni-175", serif;
 			font-weight: 400;
-			font-size: 2em;
+			font-size: 6rem;
+			background-image:url('../Images/DH000015%20copy.jpg');
+			background-size:cover;
+			background-position:center;
+			padding:200 200;
+			max-width:none;
+			margin-bottom:7rem;
+			text-shadow:white 0 -2px 90px;
+			margin-top:0;
 		}
 		blockquote h2 {
 			font-family: "adobe-caslon-pro", serif;
@@ -105,16 +103,20 @@ aside{
 	box-sizing: border-box;
 	font-family:"ltc-bodoni-175", serif;
 	font-weight: 400;
-	font-size:3em;
+	font-size:2em;
+	font-style:italic;
 	max-width:2000px;
 	padding-top:1em;
 	padding-bottom:1em;
+	line-height:2em;
+	max-width:900px;
 }
 body.js section{
 	display: none;
 }
 section{
 	overflow:hidden;
+	padding-top:7rem;
 }
 body.js section.active{
 	display: block;
@@ -124,8 +126,11 @@ ul{
 	display:flex;
 	justify-content:center;
 	justify-content:space-around;
-	padding:3em;
-}
+	padding:1rem;
+	position:fixed;
+	width:100%;
+	margin:0;
+	background: rgba(255,255,255,0.9);
 li{
 	display:inline-block;
 	font-family: "adobe-caslon-pro", serif;
@@ -152,4 +157,33 @@ nav{
 }
 .prev-post{
 	text-align:left;
+}
+.quotes {
+	margin-top:2rem;
+}
+.startquote {
+	margin-top:3rem;
+}
+
+.epigraph {
+	font-family:"ltc-bodoni-175", serif;
+	font-weight: 400;
+	font-size:2rem;
+	max-width:900px;
+	line-height:2;
+}
+
+.attribution {
+	font-family:"ltc-bodoni-175", serif;
+	font-weight:300;
+	font-size:1rem;
+	text-align:right;
+}
+
+.nopadding {
+	padding-top:0;
+}
+
+section {
+	
 }
