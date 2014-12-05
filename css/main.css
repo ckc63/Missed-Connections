@@ -46,11 +46,6 @@
 		.c15 {
 			text-align: left
 		}
-		li {
-			color: #000000;
-			font-size: 11pt;
-			font-family: "Arial"
-		}
 		p {
 			font-family: "adobe-caslon-pro", serif;
 			font-weight: 400;
@@ -73,7 +68,7 @@
 			font-family:"ltc-bodoni-175", serif;
 			font-weight: 400;
 			font-size: 6rem;
-			background-image:url('../Images/DH000015%20copy.jpg');
+			background-image:url('../images/DH000015%20copy.jpg');
 			background-size:cover;
 			background-position:center;
 			padding:200 200;
